@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="31.279199">
+<testcase classname="To validate Booking functionality of Adactin" name="To verify Login functionality of Adactin Hotel with Valid credentials" time="14.14674">
+<system-out><![CDATA[Given User enter into Adactin application...................................passed
+When User enter Username ,Password and clicks Login button..................passed
+Then User navigated to Search Hotel page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate Booking functionality of Adactin" name="To verify user can search a hotel with given credentials" time="4.164468">
+<system-out><![CDATA[Given User has to be there in Search Hotel page.............................passed
+When User selects the Location,Hotel,Room Type,No of Rooms,Check In Date,Check Out Date,Adults per Room,Children per Room and clicks Search Button.passed
+Then User navigated to Select Hotel page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate Booking functionality of Adactin" name="To verify user can select the hotel" time="2.047321">
+<system-out><![CDATA[Given User has to be there in Select Hotel page.............................passed
+When User selects the hotel and click continue..............................passed
+Then User navigated to Book A Hotel Page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate Booking functionality of Adactin" name="To verify user can book a hotel" time="7.288939">
+<system-out><![CDATA[Given User has to be there in Book A Hotel Page.............................passed
+When User enter Firstname,Lastname,BillingAddress,CreditCardNo,CreditCardType,ExpiryDate,CVVNo and click BookNow button.passed
+Then User navigated to Booking Confirm Page.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate Booking functionality of Adactin" name="To verify user get Booking Confirmation Details" time="2.349982">
+<system-out><![CDATA[Given User has to be there in Booking Confirm Page..........................passed
+When User Prints OrderNo and clicks MyItinerary.............................passed
+Then User navigated to Booked Itinerary.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate Booking functionality of Adactin" name="To verify user can see booked Hotels" time="1.281749">
+<system-out><![CDATA[Given User has to be there in Booked Itinerary page.........................passed
+When User checks the booked hotel and click Logout..........................passed
+Then User navigates to Logout Page..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

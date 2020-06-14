@@ -3,8 +3,8 @@ Feature: To validate Booking functionality of Adactin
   Scenario: To verify Login functionality of Adactin Hotel with Valid credentials
     Given User enter into Adactin application
     When User enter Username ,Password and clicks Login button
-      | Username | samsamsam |
-      | Password | samsamsam |
+      | Username | shyam1995 |
+      | Password | shyam@1995 |
     Then User navigated to Search Hotel page
 
   Scenario: To verify user can search a hotel with given credentials

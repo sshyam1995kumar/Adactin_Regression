@@ -3,7 +3,14 @@ package org.stepdefinition;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
+import org.base.BaseClass;
 import org.junit.Assert;
+import org.pojoclass.Book_A_Hotel_POJO_Class;
+import org.pojoclass.Booked_Itinerary_POJO_Class;
+import org.pojoclass.Booking_Confirmation_POJO_Class;
+import org.pojoclass.Login_POJO_Class;
+import org.pojoclass.Search_Hotel_POJO_Class;
+import org.pojoclass.Select_Hotel_POJO_Class;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
